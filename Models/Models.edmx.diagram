@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="791a84da61564975af82958d554f1485" Name="Diagram1">
+        <EntityTypeShape EntityType="SheduleModel.Audience" Width="1.5" PointX="0.75" PointY="0.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="SheduleModel.Groups" Width="1.5" PointX="0.75" PointY="3.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="SheduleModel.History" Width="1.5" PointX="5.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SheduleModel.Lecturer" Width="1.5" PointX="0.75" PointY="6.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="SheduleModel.Lesson" Width="1.5" PointX="3" PointY="2.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="SheduleModel.Student" Width="1.5" PointX="3" PointY="7.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="SheduleModel.Subject" Width="1.5" PointX="0.75" PointY="9.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="SheduleModel.sysdiagrams" Width="1.5" PointX="5.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SheduleModel.Student_full_info" Width="1.5" PointX="5.75" PointY="6.75" IsExpanded="true" />
+        <AssociationConnector Association="SheduleModel.FK__Lesson__Audience__1D7B6025" ManuallyRouted="false" />
+        <AssociationConnector Association="SheduleModel.FK__Lesson__Academic__1E6F845E" ManuallyRouted="false" />
+        <AssociationConnector Association="SheduleModel.FK__Student__Group_n__403A8C7D" ManuallyRouted="false" />
+        <AssociationConnector Association="SheduleModel.FK__Lesson__Lecturer__1C873BEC" ManuallyRouted="false" />
+        <AssociationConnector Association="SheduleModel.FK__Lesson__Subject__1B9317B3" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
